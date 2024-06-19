@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+      <!-- custom styles -->
+      <link rel="stylesheet" href="./CSS/style.css">
+      
+      <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+  	<main>
+      <div class="app__container">
+        <!-- holds score and rating -->
+        <div class="app__container-score-container">
+            <p class="score-container__tittle">
+              Your Result
+            </p>
+
+            <div class="score-container__score-circle">
+              <h1 class="score-container__score-circle__score">76</h1>
+              <p class="score-container__score-circle__divisor">of 100</p>
+            </div>
+
+            <h2 class="score-container__rating">Great</h2>
+            <p class="score-container__rating-description">
+            You scored higher than 65% of the people who have taken these tests.
+            </p>
+        </div>
+
+        <div class="app__container-summary-container">
+			    <h2 class="app__container-summary-container-tittle">Summary</h2>
+
+          <div class="app__container-summary-container-summaries" id="summary-container">
+            
+          </div>
+          
+          <button class="continue-button">Continue</button>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kingsley</a>.
+    </footer>
+
+    <!-- custom script -->
+    <script src="./main.js"></script>
+</body>
+</html>
